@@ -44,7 +44,7 @@ public class CsvFormatter : TextOutputFormatter
 
 ```
 
-Add this newly created CsvFormatter instance to the list of available formatters. And match the formatter with media type.
+Add this newly created CsvFormatter instance to the list of available formatters in Startup.cs file. And match the formatter with media type 'text/csv'.
 
 ```cs
   options.FormatterMappings.SetMediaTypeMappingForFormat(
